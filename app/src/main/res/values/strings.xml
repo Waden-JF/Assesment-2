@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Quiz-Time</string>
+    <string name="progress_text">Question %1$d/%2$d</string>
+    <string name="correct_feedback">Correct! %1$s</string>
+    <string name="incorrect_feedback">Incorrect! %1$s</string>
+    <string name="btn_fact">Fact (True)</string>
+    <string name="btn_myth">Myth (False)</string>
+    <string name="btn_next">Next</string>
+</resources>

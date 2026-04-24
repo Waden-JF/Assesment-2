@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="@drawable/beach_sand" >
+
+    <TextView
+        android:id="@+id/tvProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 1/10" />
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#F0F0F0"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Statement goes here"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnFact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fact (True)" />
+
+    <Button
+        android:id="@+id/btnMyth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Myth (False)" />
+
+    <TextView
+        android:id="@+id/tvFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:textColor="#FF0000"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:enabled="false" />
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Sky -->
+    <path
+        android:pathData="M0,0 h100 v40 h-100 z"
+        android:fillColor="#1E90FF"/>
+
+    <!-- Water -->
+    <path
+        android:pathData="M0,40 h100 v30 h-100 z"
+        android:fillColor="#00CED1"/>
+
+    <!-- Sand -->
+    <path
+        android:pathData="M0,70 h100 v30 h-100 z"
+        android:fillColor="#F5DEB3"/>
+
+    <!-- Some clouds -->
+    <path
+        android:pathData="M20,10 q5,-5 10,0 q5,5 10,0 q5,-5 10,0"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"/>
+
+</vector>
